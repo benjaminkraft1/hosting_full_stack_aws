@@ -5,7 +5,7 @@
 export const environment = {
   production: true,
   appName: "api",
-  apiHost: "http://apienv.us-east-1.elasticbeanstalk.com//api/v0",
+  apiHost: "http://apienv.us-east-1.elasticbeanstalk.com/api/v0",
 };
 
 /*

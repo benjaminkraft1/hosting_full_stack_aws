@@ -15,13 +15,12 @@ The service is hosted on AWS using Elastic Beanstalk for the Backend API includi
 ### RDS Postgres
 The application uses an AWS RDS Postgres database.
 
-URL: database-1.crrocpk4jrme.us-east-1.rds.amazonaws.com
-
+URL: apidb2.crrocpk4jrme.us-east-1.rds.amazonaws.com
 
 ### Elastic Beanstalk
 The sever application is deployed on AWS Elastic Beanstalk by uploading an archived build to an AWS S3 bucket. Elastic Beanstalk the extracts and runs the application on the endpoint.
 
-URL: Udagramenv-env.eba-wcahkxjc.us-east-1.elasticbeanstalk.com
+URL: http://apienv.us-east-1.elasticbeanstalk.com/
 
 ### S3 Bucket for Frontend
 The frontend application is deployed on to an AWS S3 bucket. 
