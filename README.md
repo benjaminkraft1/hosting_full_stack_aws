@@ -6,6 +6,10 @@
 
 In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
 
+# Access Websit
+You can access the website from the following link:
+http://myrandombucket124312412.s3-website-us-east-1.amazonaws.com/
+
 # Hosting
 
 The service is hosted on AWS using Elastic Beanstalk for the Backend API including a postgres relational database and a S3 Bucket for the frontend.
