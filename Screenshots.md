@@ -7,5 +7,8 @@
 # S3 Bucket Backend (Elasic Beanstalk)
 ![alt text](docu/backend_bucket.png)
 
+# Database
+![alt text](docu/database.png)
+
 # CI/CD CircleCI
 ![alt text](docu/circleci.png)
