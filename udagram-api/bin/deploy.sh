@@ -1,3 +1,1 @@
-aws s3 cp ./www/Archive.zip s3://elasticbeanstalk-us-east-1-532545066122/
-aws elasticbeanstalk create-application-version --application-name api --version-label <<pipeline.git.revision>> --source-bundle S3Bucket="s3://elasticbeanstalk-us-east-1-532545066122/",S3Key="Archive.zip"
-aws elasticbeanstalk update-environment --application-name api --environment-name Api-env --version-label <<pipeline.git.revision>>
+eb deploy
